@@ -1,6 +1,6 @@
 # CareFlow: Clinical Pathway Process Mining
 
-## A second-level heading Overview
+## Overview
 CareFlow is a healthcare operations data engineering pipeline and process mining dashboard that discovers actual, unscripted patient journeys from raw Electronic Health Record (EHR) timestamped event logs. By deploying PM4Py process mining algorithms and dbt ELT models over Google BigQuery, CareFlow uncovers hidden operational bottlenecks, such as patients being sent back to Triage due to missing intake paperwork.
 
 ## Project Goals
