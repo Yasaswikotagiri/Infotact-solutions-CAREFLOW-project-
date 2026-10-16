@@ -1,0 +1,1001 @@
+case_id,total_activities,conformance_status,path_sequence
+PAT_0100,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0101,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0102,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0103,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0104,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0105,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0106,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0107,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0108,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0109,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0110,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0111,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0112,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0113,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0114,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0115,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0116,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0117,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0118,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0119,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0120,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0121,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0122,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0123,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0124,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0125,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0126,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0127,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0128,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0129,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0130,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0131,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0132,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0133,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0134,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0135,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0136,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0137,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0138,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0139,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0140,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0141,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0142,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0143,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0144,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0145,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0146,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0147,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0148,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0149,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0150,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0151,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0152,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0153,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0154,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0155,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0156,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0157,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0158,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0159,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0160,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0161,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0162,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0163,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0164,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0165,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0166,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0167,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0168,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0169,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0170,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0171,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0172,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0173,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0174,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0175,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0176,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0177,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0178,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0179,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0180,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0181,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0182,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0183,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0184,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0185,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0186,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0187,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0188,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0189,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0190,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0191,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0192,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0193,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0194,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0195,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0196,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0197,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0198,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0199,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0200,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0201,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0202,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0203,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0204,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0205,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0206,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0207,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0208,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0209,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0210,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0211,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0212,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0213,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0214,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0215,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0216,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0217,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0218,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0219,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0220,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0221,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0222,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0223,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0224,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0225,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0226,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0227,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0228,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0229,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0230,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0231,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0232,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0233,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0234,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0235,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0236,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0237,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0238,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0239,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0240,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0241,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0242,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0243,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0244,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0245,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0246,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0247,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0248,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0249,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0250,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0251,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0252,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0253,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0254,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0255,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0256,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0257,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0258,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0259,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0260,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0261,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0262,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0263,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0264,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0265,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0266,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0267,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0268,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0269,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0270,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0271,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0272,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0273,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0274,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0275,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0276,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0277,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0278,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0279,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0280,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0281,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0282,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0283,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0284,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0285,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0286,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0287,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0288,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0289,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0290,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0291,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0292,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0293,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0294,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0295,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0296,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0297,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0298,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0299,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0300,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0301,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0302,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0303,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0304,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0305,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0306,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0307,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0308,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0309,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0310,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0311,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0312,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0313,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0314,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0315,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0316,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0317,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0318,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0319,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0320,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0321,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0322,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0323,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0324,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0325,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0326,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0327,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0328,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0329,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0330,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0331,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0332,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0333,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0334,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0335,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0336,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0337,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0338,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0339,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0340,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0341,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0342,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0343,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0344,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0345,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0346,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0347,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0348,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0349,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0350,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0351,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0352,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0353,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0354,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0355,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0356,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0357,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0358,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0359,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0360,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0361,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0362,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0363,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0364,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0365,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0366,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0367,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0368,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0369,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0370,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0371,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0372,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0373,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0374,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0375,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0376,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0377,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0378,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0379,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0380,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0381,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0382,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0383,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0384,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0385,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0386,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0387,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0388,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0389,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0390,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0391,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0392,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0393,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0394,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0395,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0396,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0397,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0398,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0399,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0400,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0401,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0402,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0403,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0404,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0405,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0406,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0407,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0408,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0409,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0410,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0411,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0412,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0413,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0414,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0415,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0416,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0417,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0418,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0419,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0420,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0421,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0422,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0423,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0424,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0425,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0426,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0427,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0428,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0429,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0430,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0431,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0432,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0433,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0434,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0435,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0436,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0437,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0438,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0439,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0440,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0441,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0442,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0443,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0444,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0445,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0446,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0447,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0448,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0449,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0450,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0451,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0452,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0453,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0454,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0455,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0456,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0457,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0458,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0459,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0460,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0461,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0462,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0463,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0464,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0465,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0466,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0467,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0468,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0469,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0470,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0471,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0472,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0473,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0474,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0475,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0476,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0477,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0478,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0479,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0480,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0481,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0482,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0483,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0484,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0485,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0486,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0487,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0488,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0489,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0490,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0491,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0492,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0493,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0494,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0495,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0496,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0497,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0498,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0499,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0500,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0501,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0502,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0503,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0504,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0505,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0506,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0507,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0508,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0509,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0510,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0511,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0512,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0513,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0514,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0515,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0516,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0517,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0518,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0519,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0520,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0521,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0522,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0523,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0524,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0525,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0526,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0527,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0528,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0529,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0530,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0531,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0532,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0533,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0534,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0535,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0536,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0537,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0538,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0539,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0540,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0541,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0542,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0543,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0544,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0545,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0546,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0547,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0548,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0549,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0550,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0551,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0552,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0553,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0554,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0555,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0556,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0557,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0558,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0559,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0560,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0561,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0562,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0563,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0564,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0565,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0566,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0567,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0568,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0569,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0570,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0571,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0572,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0573,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0574,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0575,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0576,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0577,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0578,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0579,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0580,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0581,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0582,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0583,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0584,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0585,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0586,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0587,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0588,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0589,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0590,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0591,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0592,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0593,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0594,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0595,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0596,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0597,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0598,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0599,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0600,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0601,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0602,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0603,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0604,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0605,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0606,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0607,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0608,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0609,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0610,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0611,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0612,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0613,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0614,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0615,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0616,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0617,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0618,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0619,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0620,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0621,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0622,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0623,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0624,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0625,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0626,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0627,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0628,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0629,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0630,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0631,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0632,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0633,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0634,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0635,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0636,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0637,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0638,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0639,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0640,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0641,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0642,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0643,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0644,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0645,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0646,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0647,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0648,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0649,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0650,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0651,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0652,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0653,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0654,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0655,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0656,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0657,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0658,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0659,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0660,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0661,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0662,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0663,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0664,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0665,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0666,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0667,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0668,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0669,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0670,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0671,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0672,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0673,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0674,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0675,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0676,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0677,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0678,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0679,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0680,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0681,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0682,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0683,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0684,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0685,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0686,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0687,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0688,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0689,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0690,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0691,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0692,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0693,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0694,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0695,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0696,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0697,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0698,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0699,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0700,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0701,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0702,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0703,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0704,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0705,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0706,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0707,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0708,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0709,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0710,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0711,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0712,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0713,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0714,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0715,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0716,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0717,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0718,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0719,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0720,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0721,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0722,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0723,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0724,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0725,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0726,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0727,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0728,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0729,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0730,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0731,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0732,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0733,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0734,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0735,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0736,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0737,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0738,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0739,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0740,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0741,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0742,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0743,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0744,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0745,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0746,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0747,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0748,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0749,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0750,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0751,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0752,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0753,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0754,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0755,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0756,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0757,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0758,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0759,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0760,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0761,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0762,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0763,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0764,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0765,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0766,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0767,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0768,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0769,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0770,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0771,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0772,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0773,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0774,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0775,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0776,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0777,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0778,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0779,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0780,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0781,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0782,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0783,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0784,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0785,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0786,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0787,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0788,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0789,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0790,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0791,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0792,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0793,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0794,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0795,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0796,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0797,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0798,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0799,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0800,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0801,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0802,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0803,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0804,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0805,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0806,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0807,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0808,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0809,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0810,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0811,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0812,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0813,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0814,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0815,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0816,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0817,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0818,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0819,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0820,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0821,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0822,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0823,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0824,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0825,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0826,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0827,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0828,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0829,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0830,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0831,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0832,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0833,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0834,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0835,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0836,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0837,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0838,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0839,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0840,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0841,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0842,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0843,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0844,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0845,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0846,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0847,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0848,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0849,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0850,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0851,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0852,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0853,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0854,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0855,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0856,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0857,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0858,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0859,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0860,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0861,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0862,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0863,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0864,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0865,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0866,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0867,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0868,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0869,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0870,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0871,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0872,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0873,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0874,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0875,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0876,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0877,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0878,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0879,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0880,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0881,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0882,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0883,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0884,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0885,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0886,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0887,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0888,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0889,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0890,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0891,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0892,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0893,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0894,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0895,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0896,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0897,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0898,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0899,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0900,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0901,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0902,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0903,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0904,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0905,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0906,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0907,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0908,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0909,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0910,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0911,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0912,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0913,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0914,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0915,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0916,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0917,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0918,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0919,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0920,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0921,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0922,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0923,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0924,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0925,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0926,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0927,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0928,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0929,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0930,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0931,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0932,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0933,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0934,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0935,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0936,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0937,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0938,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0939,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0940,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0941,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0942,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0943,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0944,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0945,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0946,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0947,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0948,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0949,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0950,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0951,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0952,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0953,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0954,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0955,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0956,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0957,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0958,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0959,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0960,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0961,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0962,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0963,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0964,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0965,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0966,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0967,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0968,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0969,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0970,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0971,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0972,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0973,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0974,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0975,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0976,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0977,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0978,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0979,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0980,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0981,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0982,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0983,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0984,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0985,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0986,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0987,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0988,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0989,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0990,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0991,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0992,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0993,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0994,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0995,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0996,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_0997,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_0998,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_0999,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1000,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1001,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1002,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1003,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1004,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1005,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1006,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1007,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1008,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1009,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1010,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1011,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1012,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1013,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1014,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1015,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1016,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1017,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1018,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1019,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1020,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1021,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1022,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1023,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1024,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1025,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1026,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1027,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1028,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1029,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1030,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1031,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1032,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1033,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1034,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1035,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1036,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1037,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1038,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1039,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1040,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1041,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1042,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1043,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1044,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1045,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1046,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1047,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1048,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1049,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1050,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1051,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1052,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1053,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1054,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1055,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1056,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1057,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1058,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1059,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1060,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1061,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1062,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1063,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1064,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1065,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1066,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1067,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1068,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1069,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1070,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1071,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1072,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1073,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1074,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1075,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1076,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1077,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1078,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1079,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1080,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1081,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1082,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1083,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1084,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1085,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1086,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1087,9,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1088,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1089,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1090,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1091,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1092,6,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
+PAT_1093,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
+PAT_1094,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1095,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1096,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1097,8,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1098,10,NON-COMPLIANT: PAPERWORK RE-TRIAGE LOOPBACK,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Intake Form Re-Triage -> Doctor Examination -> Laboratory Test -> Treatment / Medication -> Billing & Discharge
+PAT_1099,7,COMPLIANT,Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Radiology / X-Ray -> Treatment / Medication -> Billing & Discharge
