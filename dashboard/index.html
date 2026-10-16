@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareFlow - Clinical Pathway Process Mining</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="navbar">
+            <div class="brand">
+                <div class="logo-icon">🏥</div>
+                <div>
+                    <h1>CareFlow <span>Process Mining v2.0</span></h1>
+                    <p class="subtitle">Emergency Room Clinical Pathway & Bottleneck Discovery Engine</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="badge status-badge">● LOADING CAREFLOW DATA...</div>
+                <button class="btn btn-primary" onclick="runProcessDiscovery()">⚡ Re-Discover Process Map</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="card alert-card warning-card">
+                    <div class="card-header">
+                        <span class="alert-icon">⚠️</span>
+                        <h4>Hidden Operational Bottleneck</h4>
+                    </div>
+                    <div class="metric-value text-danger">--</div>
+                    <p class="card-desc">Loading bottleneck metrics...</p>
+                    <div class="roi-metric">
+                        <span>⚡ Bottleneck Transition:</span>
+                        <strong class="text-success">--</strong>
+                    </div>
+                    <div class="recommendation-badge badge-success">DATA-DRIVEN FROM EVENT LOGS</div>
+                </div>
+
+                <div class="card">
+                    <h3>🔍 Interactive Filters</h3>
+                    <div class="form-group">
+                        <label>Attending Physician</label>
+                        <select id="doctorFilter" onchange="applyFilters()">
+                            <option value="ALL">All Doctors</option>
+                            <option value="SMITH">Dr. Smith (ER)</option>
+                            <option value="PATEL">Dr. Patel (Trauma)</option>
+                            <option value="JOHNSON">Dr. Johnson (General)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Patient Severity Level</label>
+                        <select id="severityFilter" onchange="applyFilters()">
+                            <option value="ALL">All Severities</option>
+                            <option value="Critical">Critical</option>
+                            <option value="Moderate">Moderate</option>
+                            <option value="Low">Low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>📋 Conformance Audit Summary</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Analyzed Cases</span>
+                            <span class="stat-value">--</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Compliant Paths</span>
+                            <span class="stat-value text-success">--</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Non-Compliant</span>
+                            <span class="stat-value text-danger">--</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Annual Cost Loss</span>
+                            <span class="stat-value">Not in raw data</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="view-panel">
+                <div class="card process-graph-card">
+                    <div class="graph-header">
+                        <h3>🕸️ Discovered As-Is Clinical Process Map (Directly-Follows Graph)</h3>
+                        <div class="legend">
+                            <span class="legend-item"><span class="dot dot-normal"></span> Normal Path</span>
+                            <span class="legend-item"><span class="dot dot-bottleneck"></span> Paperwork Loop-back Bottleneck</span>
+                        </div>
+                    </div>
+
+                    <div class="flowchart-container">
+                        <div class="flow-node node-start">Emergency Intake<br><small>--</small></div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-node node-triage">Triage Assessment<br><small>--</small></div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-node node-vitals">Vitals Measurement<br><small>--</small></div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-node node-doc">Doctor Exam<br><small>--</small></div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-branch-container">
+                            <div class="flow-node node-xray">Radiology / X-Ray<br><small>--</small></div>
+                            <div class="loopback-arrow text-danger">Loading...</div>
+                        </div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-node node-treatment">Treatment / Meds<br><small>--</small></div>
+                        <div class="flow-arrow">➔</div>
+                        <div class="flow-node node-end">Billing & Discharge<br><small>--</small></div>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="card chart-card">
+                        <h3>⏱️ Average Transition Time Between Stages (Minutes)</h3>
+                        <canvas id="transitionChart"></canvas>
+                    </div>
+                    <div class="card chart-card">
+                        <h3>📊 Path Variant Frequency Breakdown</h3>
+                        <canvas id="variantChart"></canvas>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
