@@ -172,7 +172,7 @@ function updateDashboard() {
     renderVariantChart(variants);
     updateProcessMap(transitions, selectedCases);
 }
-
+// Calculate conformance KPIs and identify the main workflow bottleneck.
 function updateKPIs(cases, transitions) {
     const total = cases.length;
     const nonCompliant = cases.filter(c =>
