@@ -18,13 +18,13 @@ Visualize results through an interactive dashboard
 
 ## Architecture
 
-Data Warehouse (Google BigQuery): Stores chronological EHR event logs (Case_ID, Activity_Name, Timestamp, Department, Resource).
+Data Warehouse (Google BigQuery) : Stores chronological EHR event logs (Case_ID, Activity_Name, Timestamp, Department, Resource).
 
-Event Log Normalizer (dbt_careflow/): Standardizes raw EHR data and computes transition time metrics across clinical activities.
+Event Log Normalizer (dbt_careflow/) : Standardizes raw EHR data and computes transition time metrics across clinical activities.
 
-Process Mining Engine (process_mining_engine.py): Uses Python PM4Py / NetworkX graph algorithms to discover Directly-Follows Graphs (DFG), trace variant frequencies, and perform conformance checking against mandated pathways.
+Process Mining Engine (process_mining_engine.py) : Uses Python PM4Py / NetworkX graph algorithms to discover Directly-Follows Graphs (DFG), trace variant frequencies, and perform conformance checking against mandated pathways.
 
-BI & Flow Dashboard (dashboard/index.html): Interactive process map visualizer highlighting spaghetti diagrams, bottleneck callouts, filter controls (Doctor, Severity), and ROI savings metrics.
+BI & Flow Dashboard (dashboard/index.html) : Interactive process map visualizer highlighting spaghetti diagrams, bottleneck callouts, filter controls (Doctor, Severity), and ROI savings metrics.
 
 ## Quick Start
 
