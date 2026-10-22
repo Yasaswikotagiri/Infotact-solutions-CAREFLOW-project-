@@ -141,6 +141,7 @@ function calculateTransitions(events) {
 function calculateVariants(selectedCases) {
     const counts = {};
     selectedCases.forEach(c => {
+        // Read the patient's activity sequence for clinical path classification.
         const path = c.path_sequence;
 
         let label;
@@ -205,7 +206,6 @@ function updateKPIs(cases, transitions) {
     document.querySelectorAll(".stat-value")[3].textContent =
         "Not in raw data";
 }
-
 // Render average transition durations as a Chart.js bar chart.
 function renderTransitionChart(transitions) {
     const labels = transitions.map(t =>
@@ -241,7 +241,7 @@ function renderTransitionChart(transitions) {
         }
     });
 }
-
+// Render the frequency distribution of clinical path variants as a doughnut chart.
 function renderVariantChart(variants) {
     const labels = Object.keys(variants);
     const values = Object.values(variants);
@@ -271,7 +271,7 @@ function renderVariantChart(variants) {
         }
     });
 }
-
+// Update process-map nodes with average transition times and live case metrics.
 function updateProcessMap(transitions, cases) {
     const avgFor = (source, target, fallback) => {
         const found = transitions.find(t => t.key === `${source}|${target}`);
@@ -303,4 +303,5 @@ function runProcessDiscovery() {
     if (!dashboardData) return;
     updateDashboard();
     alert("Process discovery refreshed from the connected CareFlow event data.");
+}// CareFlow Process Mining Dashboard - connected to generated dashboard_data.json
 }
