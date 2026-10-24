@@ -7,13 +7,9 @@ CareFlow is a healthcare operations data engineering pipeline and process mining
 ## Project Goals
 
 Generate realistic EHR event logs
-
 Discover clinical process flows
-
 Identify bottlenecks
-
 Perform conformance checking
-
 Visualize results through an interactive dashboard
 
 ## Architecture
