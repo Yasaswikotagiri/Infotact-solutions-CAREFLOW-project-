@@ -1,0 +1,27 @@
+Data generation: synthetic hospital/EHR events with normal and loop-back patient journeys.
+
+Data processing: Pandas + NumPy.
+
+Database layer: BigQuery-ready SQL + DuckDB-compatible local workflow.
+
+Transformation: dbt staging and mart models.
+
+Process mining: PM4Py process-discovery starting point.
+
+Analytics: transition times, case duration and pathway analysis.
+
+Bottleneck analysis: SQL and Python foundation.
+
+Conformance checking: project structure ready for the next implementation.
+
+Visualization: Plotly.
+
+UI: working Streamlit dashboard.
+
+Testing: pytest tests.
+
+Power BI: processed/analytics-ready data structure for the BI layer.
+
+Documentation: README + stage documentation.
+For your first GitHub commit
+Don't commit only the CSV. Commit the whole project structure.
