@@ -45,7 +45,7 @@ def analyze_process_mining(data_dir="data", output_dir="output"):
     # Mandated Clinical Pathway: Emergency Intake -> Triage Assessment -> Vitals Measurement -> Doctor Examination -> Treatment / Medication -> Billing & Discharge
     
     # Define the expected clinical pathway for conformance checking.
-    ideal_path = ["Emergency Intake", "Triage Assessment", "Vitals Measurement", "Doctor Examination", "Treatment / Medication", "Billing & Discharge"]
+    ideal_path = ["Emergency Intake", "Triage Assessment", "Vitals Measurement", "Doctor Examination", "Treatment / Medication", "Billing & Discharge"]# Use the mandated pathway as the reference process for conformance analysis.
 
     patient_paths = df.groupby('case_id')['activity_name'].apply(list).reset_index()
 
@@ -78,12 +78,26 @@ def analyze_process_mining(data_dir="data", output_dir="output"):
     re_triage_count = sum(1 for c in non_compliant_cases if "RE-TRIAGE" in c['conformance_status'])
     re_triage_pct = round((re_triage_count / total_cases) * 100, 1)
 
-    print("\n================ CareFlow Process Mining Summary ================")
+    print("\n=============== CareFlow Process Mining Summary ===============")
     print(f"Total Patient Cases Analyzed: {total_cases}")
-    print(f"Bottleneck Identified: Radiology / X-Ray -> Intake Form Re-Triage -> Triage")
+    print("Bottleneck Identified: Radiology / X-Ray -> Intake Form Re-Triage -> Triage")
     print(f"Non-Compliant Loop-Back Rate: {re_triage_pct}% of total patients")
-    print(f"Average Delay Caused by Paperwork Error: 38.5 minutes per patient")
-    print("=================================================================\n")
 
-if __name__ == "__main__":
-    analyze_process_mining()
+    paperwork_transition = dfg_summary[
+        (dfg_summary["activity_name"] == "Radiology / X-Ray") &
+        (dfg_summary["next_activity"] == "Intake Form Re-Triage")
+    ]
+
+    if not paperwork_transition.empty:
+        paperwork_delay = paperwork_transition[
+            "avg_wait_time_mins"
+        ].iloc[0]
+    else:
+        paperwork_delay = 0
+
+    print(
+        f"Average Delay Caused by Paperwork Error: "
+        f"{paperwork_delay:.1f} minutes per patient"
+    )
+
+    print("===============================================================\n")
