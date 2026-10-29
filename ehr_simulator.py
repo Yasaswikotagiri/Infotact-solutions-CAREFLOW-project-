@@ -5,6 +5,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 def generate_ehr_logs(output_dir="data", num_patients=1000):
+    random.seed(42)
     os.makedirs(output_dir, exist_ok=True)
     print(f"Generating realistic EHR event logs for CareFlow in '{output_dir}'...")
 
