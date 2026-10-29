@@ -1,0 +1,13 @@
+activity_name,next_activity,frequency,avg_wait_time_mins,median_wait_time_mins,max_wait_time_mins
+Radiology / X-Ray,Laboratory Test,164,62.2,63.0,90.0
+Doctor Examination,Laboratory Test,316,60.6,62.0,90.0
+Doctor Examination,Radiology / X-Ray,584,41.4,42.0,60.0
+Radiology / X-Ray,Intake Form Re-Triage,223,39.0,38.0,55.0
+Intake Form Re-Triage,Doctor Examination,223,29.5,29.0,45.0
+Vitals Measurement,Doctor Examination,1000,29.5,29.5,45.0
+Doctor Examination,Treatment / Medication,323,23.0,24.0,30.0
+Laboratory Test,Treatment / Medication,480,22.7,23.0,30.0
+Radiology / X-Ray,Treatment / Medication,197,22.4,23.0,30.0
+Treatment / Medication,Billing & Discharge,1000,15.2,15.0,20.0
+Emergency Intake,Triage Assessment,1000,10.2,10.0,15.0
+Triage Assessment,Vitals Measurement,1000,7.6,8.0,10.0
