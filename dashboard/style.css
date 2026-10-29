@@ -277,3 +277,23 @@ select {
 .chart-card canvas {
     max-height: 190px;
 }
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .charts-row {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .process-graph-card {
+        height: auto;
+        min-height: 380px;
+    }
+}
