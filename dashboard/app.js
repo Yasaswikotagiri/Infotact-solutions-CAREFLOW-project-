@@ -30,7 +30,10 @@ async function loadDashboardData() {
         document.querySelector(".status-badge").textContent = "● CAREFLOW DATA CONNECTED";
         updateDashboard();
     } catch (error) {
-        console.error("Could not load dashboard_data.json:", error);
+        console.error(
+    "CareFlow dashboard data could not be loaded:",
+    error
+);
         document.querySelector(".status-badge").textContent = "● DATA CONNECTION ERROR";
         alert("CareFlow data could not be loaded. Run the dashboard through a local server or GitHub Pages, not by double-clicking index.html.");
     }
@@ -281,11 +284,23 @@ function updateProcessMap(transitions, cases) {
     const nodes = document.querySelectorAll(".flow-node");
     if (nodes.length >= 7) {
         nodes[0].innerHTML = `Emergency Intake<br><small>Avg ${avgFor("Emergency Intake","Triage Assessment","0")}m</small>`;
+
         nodes[1].innerHTML = `Triage Assessment<br><small>Avg ${avgFor("Triage Assessment","Vitals Measurement","0")}m</small>`;
+
         nodes[2].innerHTML = `Vitals Measurement<br><small>Avg ${avgFor("Vitals Measurement","Doctor Examination","0")}m</small>`;
+
         nodes[3].innerHTML = `Doctor Examination<br><small>Avg ${avgFor("Doctor Examination","Radiology / X-Ray","0")}m</small>`;
-        nodes[4].innerHTML = `Radiology / X-Ray<br><small>Avg ${avgFor("Doctor Examination","Radiology / X-Ray","0")}m`;
+
+        nodes[4].innerHTML =
+    `Radiology / X-Ray<br><small>Avg ${
+        avgFor(
+            "Radiology / X-Ray",
+            "Intake Form Re-Triage",
+            "0"
+        )
+    }m</small>`;
         nodes[5].innerHTML = `Treatment / Meds<br><small>Avg ${avgFor("Treatment / Medication","Billing & Discharge","0")}m</small>`;
+        
         nodes[6].innerHTML = `Billing & Discharge<br><small>Avg ${avgFor("Treatment / Medication","Billing & Discharge","0")}m</small>`;
     }
 
@@ -303,5 +318,4 @@ function runProcessDiscovery() {
     if (!dashboardData) return;
     updateDashboard();
     alert("Process discovery refreshed from the connected CareFlow event data.");
-}// CareFlow Process Mining Dashboard - connected to generated dashboard_data.json
 }
