@@ -1,27 +1,75 @@
-Data generation: synthetic hospital/EHR events with normal and loop-back patient journeys.
+# CareFlow: Healthcare Analytics & Process Mining Demo
 
-Data processing: Pandas + NumPy.
+## Overview
+CareFlow is a healthcare analytics and process mining demonstration that analyzes synthetic Electronic Health Record (EHR) event logs to uncover hidden inefficiencies in hospital workflows.
 
-Database layer: BigQuery-ready SQL + DuckDB-compatible local workflow.
+The project simulates patient journeys across hospital departments, including Registration, Triage, Intake Form, Doctor Assessment, Radiology, Treatment, and Discharge. It includes both normal patient pathways and loop-back scenarios to demonstrate how repeated administrative procedures can contribute to operational delays.
 
-Transformation: dbt staging and mart models.
+This all-in-one Python demo combines synthetic data generation, data processing, patient pathway analysis, bottleneck identification, basic conformance auditing, and interactive visualization in a single application.
 
-Process mining: PM4Py process-discovery starting point.
+## Key Features
 
-Analytics: transition times, case duration and pathway analysis.
+- **Synthetic EHR Generation:** Creates reproducible patient activity logs with timestamps, departments, doctors, and severity levels.
+- **Patient Journey Analysis:** Reconstructs patient pathways and identifies repeated activities and unexpected transitions.
+- **Transition Time Analytics:** Calculates elapsed time between consecutive clinical activities.
+- **Case Duration Analysis:** Measures the total elapsed time for each synthetic patient journey.
+- **Bottleneck Detection:** Ranks frequently occurring and time-consuming transitions for further investigation.
+- **Conformance Auditing:** Flags selected pathway deviations, including repeated Triage activities and intake form re-triage.
+- **Interactive Dashboard:** Uses Streamlit and Plotly to display KPIs, patient flows, case duration distributions, and bottleneck charts.
+- **Data Export:** Generates CSV reports for downstream analytics and business intelligence workflows.
+- **Process Mining Extension:** Provides an optional starting point for PM4Py-based process discovery.
 
-Bottleneck analysis: SQL and Python foundation.
+## Technology Stack
 
-Conformance checking: project structure ready for the next implementation.
+Python, Pandas, NumPy, Streamlit, Plotly, and optional PM4Py.
 
-Visualization: Plotly.
+## How to Run
 
-UI: working Streamlit dashboard.
+Install the required dependencies:
 
-Testing: pytest tests.
+```bash
+pip install streamlit pandas numpy plotly
+```
 
-Power BI: processed/analytics-ready data structure for the BI layer.
+Launch the application:
 
-Documentation: README + stage documentation.
-For your first GitHub commit
-Don't commit only the CSV. Commit the whole project structure.
+```bash
+streamlit run careflow_demo.py
+```
+
+Use the dashboard controls to generate synthetic patient journeys, filter cases by doctor or severity, investigate workflow bottlenecks, and download analytical reports.
+
+## Expected Outputs
+
+The application can generate the following reports:
+
+- `ehr_raw_event_logs.csv` — Synthetic, timestamped patient activity records.
+- `dfg_transitions_summary.csv` — Activity transition frequencies and elapsed-time metrics.
+- `case_duration_summary.csv` — Patient case durations and case-level attributes.
+- `process_bottlenecks.csv` — Ranked transition bottlenecks.
+- `conformance_audit.csv` — Rule-based pathway deviation results.
+
+CSV files can also be downloaded directly from the dashboard.
+
+## Example Analytical Scenario
+
+CareFlow simulates a paperwork-related loop-back in which a patient returns to Intake Form Re-Triage and may repeat Triage before continuing through the clinical pathway.
+
+The demo analyzes these events to illustrate how healthcare operations teams could investigate repeated administrative activities, evaluate transition delays, and identify opportunities to improve workflow efficiency.
+
+## Future Enhancements
+
+- Integrate Google BigQuery for warehouse-based analytics.
+- Implement dbt staging and mart models.
+- Expand formal conformance checking using PM4Py.
+- Develop advanced bottleneck root-cause analysis.
+- Connect processed datasets to Power BI.
+- Add automated data quality checks and pytest coverage.
+
+## Important Note
+
+CareFlow uses entirely synthetic data for educational and demonstration purposes. Its metrics and findings do not represent actual hospital performance and should not be used for clinical decision-making.
+
+## Project Goal
+
+The goal of CareFlow is to demonstrate how healthcare data engineering, process mining, and interactive analytics can transform timestamped event logs into actionable insights about patient pathways and operational bottlenecks.
