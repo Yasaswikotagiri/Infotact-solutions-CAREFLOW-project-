@@ -1,0 +1,49 @@
+🏥
+CareFlow Process Mining v2.0
+Emergency Room Clinical Pathway & Bottleneck Discovery Engine
+
+● CAREFLOW DATA CONNECTED
+⚡ Re-Discover Process Map
+⚠️
+Hidden Operational Bottleneck
+22.3%
+Patients sent from Radiology / X-Ray to Intake Form Re-Triage due to the missing-paperwork loop.
+
+⚡ Bottleneck Transition: 39.0 Mins Avg Transition Delay
+DATA-DRIVEN FROM EVENT LOGS
+🔍 Interactive Filters
+Attending Physician 
+All Doctors
+Patient Severity Level 
+All Severities
+📋 Conformance Audit Summary
+Analyzed Cases 1,000 Cases
+Compliant Paths 77.7%
+Non-Compliant 22.3%
+Cost Data Availability Not in raw data
+🕸️ Discovered As-Is Clinical Process Map (Directly-Follows Graph)
+Normal Path Paperwork Loop-back Bottleneck
+Emergency Intake
+Avg 10.2m
+➔
+Triage Assessment
+Avg 7.6m
+➔
+Vitals Measurement
+Avg 29.5m
+➔
+Doctor Examination
+Avg 41.4m
+➔
+Radiology / X-Ray
+Avg 39.0m
+⤴ 22.3% Sent to Re-Triage
+(Missing Paperwork Loop)
+➔
+Treatment / Meds
+Avg 15.2m
+➔
+Billing & Discharge
+Avg 15.2m
+⏱️ Average Transition Time Between Stages (Minutes)
+📊 Path Variant Frequency Breakdown
